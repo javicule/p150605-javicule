@@ -15,3 +15,11 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+
+# Ignorar carpetas dist y build
+dist/
+build/
+
+# Ignorar archivos de audio
+*.mp3
+*.wav
